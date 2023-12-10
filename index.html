@@ -4,19 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>H1 can only be used once on a page.</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <li>Inline CSS: styles an element directly in the HTML file. Inline styles apply to a specific HTML page element. Useful for quick and permanent changes, but less flexible. Must be edited individually whenever you make a design change.</li>
+          <li>Internal style sheet: CSS code in the HTML head.</li>
+          <li>External CSS style sheet: most common way to style a webpage. Allows you to keep all CSS rules in a separate file, makes design changes easier.</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git add -A: stages your changes. The "add -A" command commits all files in the working branch</li>
+          <li>git commit -m "message here": commits changes. The "-m" flag associates a message with the commit. Commit messages should be short descriptive messages of the changes implemented.</li>
+          <li>git pull origin main: pulls in the base branch, syncing the local and remote main branches. Do this before opening a pull request to check if the current branch is up to date</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+     <ul>
+       <li>var: declares a variable</li>
+       <li>An array is a group of related data.</li>
+       <li>An index in an array is the number assigned to the variable. Starts at zero.</li>
+       <li>A function is a set of instructions that tells the computer how to perform a certain task. They don't automatically execute when the JavaScript file is run, you have to call it by name to execute it.</li>
+       <li>A value is considered <b>falsy</b> if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a <b>Boolean</b> data type with the value of false. All other values, including a Boolean with the value of true, are considered <b>truthy</b>.</li>
+       <li>A variable is a named container that allows us to store data in our code.</li>
+       <li>Control flow is the order in which a computer executes code in a script.</li>
+     </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>$
   </body>
 </html>
